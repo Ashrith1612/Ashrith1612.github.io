@@ -1,20 +1,20 @@
-# arasgungore.github.io
+# Ashrith1612.github.io
 
-My portfolio website built using HTML, CSS, and JavaScript. You can check it out [here](https://arasgungore.github.io).
+My portfolio website built using HTML, CSS, and JavaScript. You can check it out [here](https://Ashrith1612.github.io).
 
 
 
 ## Screenshots
 
 <p float="center">
-    <img src="https://github.com/arasgungore/arasgungore.github.io/blob/main/Screenshots/1.jpg" width="800">
+    <img src="./Screenshots/1.png" width="800">
 </p>
 
 
 
 ## Author
 
-👤 **Aras Güngöre**
+👤 **Ashrith Reddy**
 
-* LinkedIn: [@arasgungore](https://www.linkedin.com/in/arasgungore)
-* GitHub: [@arasgungore](https://github.com/arasgungore)
+* LinkedIn: [@ashrith-reddy](https://www.linkedin.com/in/ashrith-reddy)
+* GitHub: [@Ashrith1612](https://github.com/Ashrith1612)
