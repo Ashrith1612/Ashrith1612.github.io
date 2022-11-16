@@ -468,7 +468,18 @@ section .container {
 }
 
 /*--------------------------------------------------------------
-# Skills
+# Experiences
+--------------------------------------------------------------*/
+#experience .company-logo {
+  float: left;
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+/*--------------------------------------------------------------
+# Projects
 --------------------------------------------------------------*/
 #projects .project-image {
   width: 100%;
