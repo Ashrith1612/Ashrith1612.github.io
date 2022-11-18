@@ -367,7 +367,7 @@ section .container {
   }
 }
 
-.section-title h2 {
+h2.section-title {
   font-size: 14px;
   font-weight: 500;
   padding: 0;
@@ -379,7 +379,7 @@ section .container {
   font-family: "Poppins", sans-serif;
 }
 
-.section-title h2::after {
+h2::after.section-title {
   content: "";
   width: 120px;
   height: 1px;
@@ -388,7 +388,7 @@ section .container {
   margin: 4px 10px;
 }
 
-.section-title p {
+p.section-title {
   margin: 0;
   margin: -15px 0 15px 0;
   font-size: 36px;
