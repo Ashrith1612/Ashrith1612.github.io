@@ -525,36 +525,32 @@ p.section-title {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
-.skills .progress {
-  height: 50px;
-  display: block;
-  background: none;
+#skills .icon-box {
+  text-align: center;
+  background: #09203a;
+  padding: 40px 40px;
+  transition: all ease-in-out 0.3s;
+  margin: 10px;
 }
 
-.skills .progress .skill {
-  padding: 0;
-  margin: 0 0 6px 0;
-  text-transform: uppercase;
-  display: block;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
+#skills .icon-box h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+#skills .skillsContainer a {
   color: #fff;
 }
 
-.skills .progress .skill .val {
-  float: right;
-  font-style: normal;
+#skills .skillsContainer a:hover {
+  color: #12d640;
+  text-decoration: none;
 }
 
-.skills .progress-bar-wrap {
-  background: rgba(255, 255, 255, 0.15);
-}
-
-.skills .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: .9s;
-  background-color: #1c7d32;
+#skills .icon-box:hover {
+  background: #042e5f;
+  border-color: #12d640;
 }
 
 #skills .skillsContainer {
@@ -575,7 +571,20 @@ p.section-title {
   border-radius: 8px;
   transition: .3s ease-in-out;
   background-color: #042e5f;
-  box-shadow: rgb(233 173 53 / 30%) 0px 0px 30px;
+  box-shadow: rgb(18, 214, 64, 0.5) 0px 0px 10px;
+}
+
+#skills .skillsContainer .skill--box:hover {
+  transform: scale(1.1);
+  background-color: #09203a;
+  box-shadow: rgb(18, 214, 64, 0.5) 0px 0px 20px;
+}
+
+#skills .skillsContainer .skill--box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-top: 8px;
+  margin-bottom: 0px;
 }
 
 /*--------------------------------------------------------------
